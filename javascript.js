@@ -31,3 +31,10 @@ let computerSelection = input[Math.floor(Math.random() * input.length)];
 if (playerSelection.toLowerCase() === "rock") {
     playerChoice === 0;
 }
+else if (playerSelection.toLowerCase() === "paper") {
+    playerChoice === 1;
+}
+else if (playerSelection.toLowerCase() === "scissors") {
+
+    playerChoice === 2;
+}
