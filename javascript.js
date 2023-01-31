@@ -18,3 +18,16 @@ if input is "Scissor" and "Paper" return "Scissor Wins"
 if "Paper" and "Rock" return "Paper Wins"
 repeat 5 times and print results
 */
+let playerChoice = 0;
+let computerChoice = 0;
+
+
+//when user inputs variable//
+let playerSelection = prompt("Choose Rock, Paper, or Scissors!");
+//randomly generate second variable//
+let input = ['Rock', 'Paper', 'Scissors'];
+let computerSelection = input[Math.floor(Math.random() * input.length)];
+//equate variable to number 0-2//
+if (playerSelection.toLowerCase() === "rock") {
+    playerChoice === 0;
+}
